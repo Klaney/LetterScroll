@@ -1,0 +1,32 @@
+h1 {
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.screen {
+	border: 2px solid black;
+	width:98%;
+	height:100px;
+	margin: 5px;
+	padding: 5px;
+}
+#words {
+	height:60px ;
+	width:500px;
+	font-size: 45px;
+	margin: 5px;
+	padding: 5px;
+}
+#submit{
+	height:60px;
+	width:100px;
+	margin-top: -43px;
+	padding: 5px;
+
+}
+
+#form {
+	height:63px;
+	width: 98%;
+}
