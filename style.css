@@ -11,6 +11,13 @@ h1 {
 	margin: 5px;
 	padding: 5px;
 }
+#start {
+	margin-left: 48%;
+	margin-right: 48%;
+	padding: 5px;
+
+
+}
 #words {
 	height:60px ;
 	width:500px;
