@@ -30,12 +30,12 @@ function shuffle(array) {
 
 var startGame = function(){
 		shuffle(wordBank);
-	setInterval(function (){
+		setInterval(function (){
 		//shuffle the bank and print to div
-		$(".screen").append(' ' + wordBank[index++ % wordBank.length]);
-		wordBank.splice(index , 1);
-		console.log(wordBank.length);
-	},1000);
+			$(".screen").append("<p>"+ wordBank[index++ % wordBank.length] + "</p>");
+			wordBank.splice(index , 1);
+			console.log(wordBank.length);
+		},1000);
 
 };
 

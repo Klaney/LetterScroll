@@ -10,7 +10,28 @@ h1 {
 	height:100px;
 	margin: 5px;
 	padding: 5px;
+	overflow: hidden;
+	background: #ccc;
+
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 90%;
+    width: 100%;
+  }
+}
+
+.screen p{
+	animation-duration: 5s;
+  	animation-name: slidein;
+}
+
 #start {
 	margin-left: 48%;
 	margin-right: 48%;
@@ -18,6 +39,7 @@ h1 {
 
 
 }
+
 #words {
 	height:60px ;
 	width:500px;
