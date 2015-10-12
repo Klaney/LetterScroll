@@ -29,20 +29,35 @@ function shuffle(array) {
 
 
 var startGame = function(){
+		//shuffle the bank 
 		shuffle(wordBank);
+		//put a new p element with a word into the box
 		setInterval(function (){
-		//shuffle the bank and print to div
 			$(".screen").append("<p>"+ wordBank[index++ % wordBank.length] + "</p>");
 			wordBank.splice(index , 1);
 			console.log(wordBank.length);
-		},1000);
+		},1500);
 
 };
 
 $(document).ready(function(){
+	$("#words").keyup(function(event){
+    	if(event.keyCode == 13){
+        	$("#submit").click();
+    	}
+	});
+
 	$("#start").on("click", function(){
 		startGame();
 		console.log("clicked");
+	});
+
+	$("#submit").on("click", function(){
+		var theWord = $("p:nth-child(1)").text();
+		if ($("#words").val() === theWord){
+			$("p:nth-child(1)").remove();
+		};
+		$("#words").val('');
 	});
 	
 
