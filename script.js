@@ -85,10 +85,10 @@ var endGame = function(){
 		//determine which player to give score to
 		whichPlayerScore();
 
-		alert("You won!")
+		swal("You won!", "Keep going!", "success");
 		} else {
 		whichPlayerScore();
-		alert("You lost!")
+		swal("You lost!", "Just give up on life", "error");
 	};
 	wordCount = 0;
 	gameTurn++;
@@ -112,9 +112,9 @@ var whichPlayerScore = function(){
 var whoWon = function(){
 	//determine who won
 	if (player1Score > player2Score){
-		alert("Player 1 Wins!");
+		swal("Player 1 Wins!");
 	} else {
-		alert("Player 2 Wins!");
+		swal("Player 2 Wins!");
 	}
 };
 
