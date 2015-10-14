@@ -7,7 +7,7 @@ h1 {
 .screen {
 	border: 2px solid black;
 	width:98%;
-	height:100px;
+	height:125px;
 	margin: 5px;
 	padding: 5px;
 	overflow: hidden;
@@ -15,11 +15,8 @@ h1 {
 	font-size: 80px;
 
 }
-.screen p{
-	margin-bottom: 5px;
-}
 
-@keyframes slidein {
+/*@keyframes slidein {
   from {
     margin-left: 0%;
     width: 100%; 
@@ -29,12 +26,17 @@ h1 {
     margin-left: 90%;
     width: 100%;
   }
+}*/
+.screen p {
+	position: relative;
+	margin-bottom: 7px;
 }
 
-.screen p{
+/*.screen p{
 	animation-duration: 5s;
   	animation-name: slidein;
-}
+  	/*margin-bottom: 7px;*/
+/*}*/
 
 #start {
 	margin-left: 48%;
@@ -49,6 +51,7 @@ h1 {
 	width:500px;
 	font-size: 45px;
 	margin: 5px;
+	margin-left: 25%;
 	padding: 5px;
 }
 #submit{
@@ -62,4 +65,15 @@ h1 {
 #form {
 	height:63px;
 	width: 98%;
+}
+#p1box{
+	width: 45%;
+	font-size:30px;
+	float: left;
+
+}
+#p2box{
+	width: 45%;
+	font-size: 30px;
+	float:left;
 }
