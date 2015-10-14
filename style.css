@@ -6,6 +6,8 @@ h1 {
 
 body{
 	font-family: "Carrois Gothic", helvetica;
+	background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/brushed_alu_dark.png");
+	color: white;
 }
 
 .screen {
@@ -18,6 +20,7 @@ body{
 	overflow: hidden;
 	background: #ccc;
 	font-size: 80px;
+	color:#000E00;
 
 }
 
@@ -34,20 +37,22 @@ body{
 
 #words {
 	font-family: "Carrois Gothic", helvetica;
-	height:60px ;
+	height:80px ;
 	width:500px;
 	font-size: 45px;
 	margin: 5px;
-	margin-left: 25%;
+	margin-left: 30%;
 	padding: 5px;
+	background:#ccc;
 }
 
 #submit{
 	font-family: "Carrois Gothic", helvetica;
-	height:60px;
+	height:70px;
 	width:100px;
-	margin-top: -43px;
 	padding: 5px;
+	position: relative;
+	display:none;
 }
 
 #form {
@@ -58,7 +63,8 @@ body{
 
 #p1box{
 	font-family: "Carrois Gothic", helvetica;
-	width: 45%;
+	margin-left: 25%;
+	width: 30%;
 	font-size:30px;
 	float: left;
 
@@ -66,7 +72,7 @@ body{
 
 #p2box{
 	font-family: "Carrois Gothic", helvetica;
-	width: 45%;
+	width: 30%;
 	font-size: 30px;
 	float:left;
 }

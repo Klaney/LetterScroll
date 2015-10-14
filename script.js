@@ -119,10 +119,8 @@ var whoWon = function(){
 };
 
 $(document).ready(function(){
-	//append player scores
-	
+	$("#title").slideUp(5000);
 	// Set enter to 'click' on keyup
-
 	$("#words").keyup(function(event){
     	if(event.keyCode == 13){
         	$("#submit").click();
