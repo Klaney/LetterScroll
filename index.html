@@ -14,7 +14,8 @@
 	<div class="row">
 		<h1>Text Scrolling MADNESSSSSSS</h1>
 		<hr>
-		<button type="button" class="btn-default" id="start">Start Game!</button>
+		<button type="button" class= "btn" id="start">Start Game!</button>
+		<button type="button" class= "btn" id="reset"> Reset Game!</button>
 	</div>
 		<hr>
 	<div class = "screen">
@@ -25,11 +26,17 @@
 		<button type="button" class="btn btn-default" id="submit">Submit</button>
 	</div>
 	<div id="p1box">
-		Player 1 Score:
+		Player 1 Score: <span id="p1score">0</span>
 	</div>
 	<div id="p2box">
-		Player 2 Score:
+		Player 2 Score: <span id="p2score">0</span>
 	</div>
+
+	<footer>
+		<div>
+			A Terrible Game made by Keaton Laney
+		</div>
+	</footer>
 
 	<!--jQuery CDN-->
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>

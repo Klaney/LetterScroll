@@ -4,7 +4,12 @@ h1 {
 	text-align: center;
 }
 
+body{
+	font-family: "Carrois Gothic", helvetica;
+}
+
 .screen {
+	font-family: "Carrois Gothic", helvetica;
 	border: 2px solid black;
 	width:98%;
 	height:125px;
@@ -16,37 +21,19 @@ h1 {
 
 }
 
-/*@keyframes slidein {
-  from {
-    margin-left: 0%;
-    width: 100%; 
-  }
-
-  to {
-    margin-left: 90%;
-    width: 100%;
-  }
-}*/
 .screen p {
+	font-family: "Carrois Gothic", helvetica;
 	position: relative;
 	margin-bottom: 7px;
 }
 
-/*.screen p{
-	animation-duration: 5s;
-  	animation-name: slidein;
-  	/*margin-bottom: 7px;*/
-/*}*/
-
 #start {
-	margin-left: 48%;
-	margin-right: 48%;
-	padding: 5px;
-
-
+	font-family: "Carrois Gothic", helvetica;
+	margin-left: 40%;
 }
 
 #words {
+	font-family: "Carrois Gothic", helvetica;
 	height:60px ;
 	width:500px;
 	font-size: 45px;
@@ -54,26 +41,66 @@ h1 {
 	margin-left: 25%;
 	padding: 5px;
 }
+
 #submit{
+	font-family: "Carrois Gothic", helvetica;
 	height:60px;
 	width:100px;
 	margin-top: -43px;
 	padding: 5px;
-
 }
 
 #form {
+	font-family: "Carrois Gothic", helvetica;
 	height:63px;
 	width: 98%;
 }
+
 #p1box{
+	font-family: "Carrois Gothic", helvetica;
 	width: 45%;
 	font-size:30px;
 	float: left;
 
 }
+
 #p2box{
+	font-family: "Carrois Gothic", helvetica;
 	width: 45%;
 	font-size: 30px;
 	float:left;
+}
+
+.btn {
+  background: #bdbdbd;
+  background-image: -webkit-linear-gradient(top, #bdbdbd, #5c5c5c);
+  background-image: -moz-linear-gradient(top, #bdbdbd, #5c5c5c);
+  background-image: -ms-linear-gradient(top, #bdbdbd, #5c5c5c);
+  background-image: -o-linear-gradient(top, #bdbdbd, #5c5c5c);
+  background-image: linear-gradient(to bottom, #bdbdbd, #5c5c5c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 3px 2px 9px #666666;
+  -moz-box-shadow: 3px 2px 9px #666666;
+  box-shadow: 3px 2px 9px #666666;
+  font-family: "Carrois Gothic", helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #9c0303);
+  background-image: -moz-linear-gradient(top, #ff0000, #9c0303);
+  background-image: -ms-linear-gradient(top, #ff0000, #9c0303);
+  background-image: -o-linear-gradient(top, #ff0000, #9c0303);
+  background-image: linear-gradient(to bottom, #ff0000, #9c0303);
+  text-decoration: none;
+}
+
+footer {
+	font-family: "Carrois Gothic", helvetica; 
 }
