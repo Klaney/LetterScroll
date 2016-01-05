@@ -12,4 +12,4 @@ Start Game initiates a turn, if it's the first time you clicked, it will be play
 
 ###Some notes about bugs/needing to be cleaned up and possible improvements:###
 
-It could definitely use some more CSS sprucing up, but I'm at a loss as to how to style things. I just splashed some gray and let it go, I figure there is beauty in simplicity. The word bank is a bit small, and maybe I could have used more, but the first time player will find the game challenging, and only after several plays will you run across every word, which I expect nobody will. The fit and finish isn't the best, but I like it in it's current form... so yeah.
+It could definitely use some more CSS sprucing up, but I'm at a loss as to how to style things. I just splashed some gray and let it go, I figure there is beauty in simplicity. The word bank is a bit small, and maybe I could have used more, but the first time player will find the game challenging, and only after several plays will you run across every word, which I expect nobody will. The fit and finish isn't the best, but I like it in it's current form.
