@@ -2,7 +2,7 @@
 Formerly known as Letter Scroll.
 
 
-#About:#
+###About:###
 
 Word Scroll is an intense experience best practiced under supervision by an adult, if you yourself are an adult then by all means, play away! Words fly across the screen, some easy, some hard, and they get faster as you complete them. Be careful and don't get too comfortable, some might tie your fingers together in the attempt to type.
 
