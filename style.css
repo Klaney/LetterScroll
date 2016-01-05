@@ -11,7 +11,7 @@ body{
 }
 
 .screen {
-	font-family: "Carrois Gothic", helvetica;
+	font-family: "Carrois Gothic", arial;
 	border: 2px solid black;
 	width:99%;
 	height:125px;
