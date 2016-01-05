@@ -107,6 +107,14 @@ body{
   text-decoration: none;
 }
 
-footer {
+#footer {
 	font-family: "Carrois Gothic", helvetica; 
+	text-align: center;
+	position: fixed;
+	display: inline;
+}
+
+#whowon {
+	text-align: center;
+	font-size: 15px;
 }

@@ -80,11 +80,11 @@ var continueGame = function(){
 var endGame = function(){
 	clearInterval(theInterval);
 	$(".screen").empty();
+	$("#words").val('');
 	gameRunning = false;
 	if (wordCount === 16){
 		//determine which player to give score to
 		whichPlayerScore();
-
 		swal("You won!", "Keep going!", "success");
 		} else {
 		whichPlayerScore();
@@ -105,16 +105,15 @@ var whichPlayerScore = function(){
 		$("#p2score").html(player2Score);
 		whoWon();
 		return player2Score;
-	};
-	
+	};	
 }
 
 var whoWon = function(){
 	//determine who won
 	if (player1Score > player2Score){
-		swal("Player 1 Wins!");
+		$("#whowon").html("Player 1 Wins!");
 	} else {
-		swal("Player 2 Wins!");
+		$("#whowon").html("Player 2 Wins!");
 	}
 };
 
@@ -155,4 +154,20 @@ $(document).ready(function(){
 		$("#p1score").html(player1Score);
 		$("#p2score").html(player2Score);
 	});
+
+	$(function(){
+    $(window).resize(function(){
+        placeFooter();
+    });
+    placeFooter();
+    // hide it before it's positioned
+    $('#footer').css('display','inline');
+	});
+
+	function placeFooter() {    
+    var windHeight = ($(window).height() - 2);
+    var footerHeight = $('#footer').height();
+    var offset = parseInt(windHeight) - parseInt(footerHeight);
+    $('#footer').css('top',offset);
+	}
 })
